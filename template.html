@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Basic format from bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale-1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style>@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color:#66706d;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #6e7a76 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+	color: black;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+		color: black;
+
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+	color: black;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+body{
+background-color: #D7D4D4;
+}
+</style>
+ </head>
+ <body>
+ 
+ 
+ 
+ 
+ 
+ <a href="#home">
+ <img  src="https://cdn2.smartbets.com/core/application/modules/sharebets/views/img/teams/334672.png" style="margin:0px auto;display:block" class="img-responsive" width="300"/>
+  </a>
+
+
+
+
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+	 <div class="navbar-header">
+	 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MainNav">
+	 <span class="icon-bar"></span>
+	 <span class="icon-bar"></span>
+	 <span class="icon-bar"></span>
+	 </button>
+	   <a href="#" class="navbar-brand">THIS IS MY AREA</a>
+	 </div>
+	 <div class="collapse navbar-collapse" id="MainNav">
+     <ul class="nav navbar-nav">
+	 <li class="active"><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+	 <li><a href="#">Contact</a></li>
+	 <li class="dropdown">
+	 <a href="#" class="dropdown-toggle" data-toggle="dropdown" >My Profile <span class="caret"></span></a>
+	 <ul class="dropdown-menu">
+	 <li><a href="#">skills</a></li>
+	 <li><a href="#">projects</a></li>
+	 <li><a href="#">experience</a></li>
+	 </ul>
+	 </li>
+	 </ul>
+      <ul class="nav navbar-nav navbar-right">   
+     <li>	  
+	 <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form></li>
+		  </ul>
+	 </div>
+	</div>
+   </nav>
+   
+   
+   
+   
+   
+   
+   <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6">
+            <h3>Log In</h3>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#popUpWindow">Open LogIn Window</button>
+				<div class="modal fade" id="popUpWindow">
+					<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal">&times; </button></div>
+					<div class="modal-body">  
+					<form role="form">
+						<div class="form-group">
+						  <input type="email" class="form-control" placeholder="Email">
+						</div>
+					<div class="form-group">
+					<input type="password" class="form-control" placeholder="Password">
+					</div>
+					</form> 
+		  </div>
+	      <div class="modal-footer"> 
+         	 <button class="btn btn-primary btn-block">LogIn</button>	
+		  </div>
+	   </div>
+	  </div>
+	  </div>
+	  </div>
+	  </div>
+   </div>
+   
+   
+   
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   
+   
+   
+   
+  <div class="carousel slide" id="myCarousel" data-ride="carousel"> 
+	<ol class="carousel-indicators">
+	  <li data-target="#myCarousel" data-slide-to ="0" class="active" > </li>
+	  <li data-target="#myCarousel" data-slide-to ="1" > </li>
+	  <li data-target="#myCarousel" data-slide-to ="2" > </li>	
+      <li data-target="#myCarousel" data-slide-to ="3" > </li>		  
+	</ol>
+	<div class="carousel-inner">
+		<div class="item active">
+		<img src="https://coverfiles.alphacoders.com/127/12754.jpg" alt="sorry" style="margin:0px auto;display:block" width="1200" class="img-responsive"/>
+		<div class="carousel-caption">
+		<h3>Just Some Random Stuff</h3>
+		<p>Okay!!! Its working Fine</p>
+		</div>
+		</div>
+	    <div class="item">
+		<img src="https://www.sociobits.org/wp-content/uploads/2013/05/Alone_in_Road11.jpg"  style="margin:0px auto;display:block" alt="sorry" width="1200" class="img-responsive"/>
+		<div class="carousel-caption">
+		<h3>Just Some Random Stuff</h3>
+		<p>Okay!!! Its working Fine</p>
+		</div>
+		</div>
+		<div class="item">
+		<img src="https://coverfiles.alphacoders.com/428/42812.jpg" style="margin:0px auto;display:block"  width="1200" alt="sorry" class="img-responsive"/>
+		<div class="carousel-caption">
+		<h3>Just Some Random Stuff</h3>
+		<p>Okay!!! Its working Fine</p>
+		</div>
+		</div>
+	    <div class="item">
+		<img src="https://www.sleekcover.com/covers/cute-red-scooter-facebook-cover.jpg"  style="margin:0px auto;display:block" alt="sorry" width="1200" class="img-responsive"/>
+		<div class="carousel-caption">
+		<h3>Just Some Random Stuff</h3>
+		<p>Okay!!! Its working Fine</p>
+		</div>
+		</div>
+    </div>
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+  <span class="icon-prev"></span>
+  </a>
+  
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">
+  <span class="icon-next"></span>
+  </a>
+  </div>
+
+  <section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p>Just a template to showcase my front end skills</p>
+					<p class="h6">&copy NO right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Vipul</a></p>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+                      
+                
+   
+   
+ </body>
+</html>
